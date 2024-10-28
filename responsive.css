@@ -1,0 +1,91 @@
+@media (max-width: 680px) { 
+    nav{
+        position: fixed;
+        display: flex;
+        width: 100%;
+        padding: 20px 10px;
+        justify-content: space-between;
+    }
+    nav .button a{
+        display: flex;
+        gap: 30px;
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    #homepage {
+        width: 113%;
+        height: 106vh;
+        position: relative;
+        overflow: hidden;
+    }
+    #home-message > p {
+        font-weight: 600;
+        text-align: left;
+        line-height: 1.55vmax;
+        font-size: 1.4vmax;
+    } 
+    #page2 {
+        width: 113%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0vmax 2vmax;
+        position: relative;
+        margin-top: 10vmax;
+    }
+    #page2-button {
+        width: fit-content;
+        border: 1.5px solid #000;
+        display: flex;
+        gap: 1vmax;
+    }
+    .card {
+        background-color: #000;
+        height: 16.5vmax;
+    }
+    #page3 {
+        width: 113%;
+        margin-top: 10vmax;
+    }
+    .logo-1 {
+        height: 24vmax;
+        width: 24vmax;
+        top: 62%;
+        left: 10%;
+    }
+    #page4 {
+        width: 113%;
+        padding: 1vmax 0vmax;
+    }
+    .listitem-left > h3 {
+        font-size: 4vmax;
+        font-family: neue-light;
+        font-weight: 100;
+        opacity: 0.25;
+    }
+    #page5-left > p, #page5-right > p {
+        width: 70%;
+        font-size: 1.6vmax;
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: -0.5px;
+    }
+    #page6-left > h4 {
+        width: 45%;
+        font-size: 2.4vmax;
+        font-weight: 600;
+        line-height: 2.4vmax;
+    }
+    #footer {
+        width: 113%;
+        background-color: #000;
+        padding: 3vmax 2vmax;
+        color: #fff;
+        margin-top: 5vmax;
+    }
+    #footer-center > h1 > span {
+        font-family: neue-medium;
+        font-size: 12vmax;
+    }
+}

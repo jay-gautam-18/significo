@@ -1,0 +1,67 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --salmon: #EF9D71;
+    --aqua: #AEDEE0;
+    --lemon: #F5F19C;
+}
+
+*::selection {
+    background-color: var(--salmon);
+    color: var(--white);
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #fff;
+    border-radius: 1000px;
+}
+
+body {
+    scrollbar-width: 10px;
+}
+
+body[theme="black"] {
+    background-color: var(--black);
+}
+
+body[theme="black"] .section {
+    color: var(--white);
+}
+
+body[theme="white"] {
+    background-color: var(--white);
+}
+
+body[theme="white"] .section {
+    color: var(--black);
+}
+
+body[theme="aqua"] {
+    background-color: var(--aqua);
+}
+
+body[theme="aqua"] .section {
+    color: var(--black);
+}
+
+body[theme="salmon"] {
+    background-color: var(--salmon);
+}
+
+body[theme="salmon"] .section {
+    color: var(--black);
+}
+
+body[theme="lemon"] {
+    background-color: var(--lemon);
+}
+
+body[theme="lemon"] {
+    color: var(--black);
+}
